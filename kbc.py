@@ -1,22 +1,5 @@
-import time
+#git remote add origin https://github.com/Jai-kishan/-Kaun-Banega-Crorepati-Game.git git push -u origin master
 import pyglet
-
-#for  play question 
-# music = pyglet.resource.media('Question1.mp3')
-# music.play()
-
-# for timer coundown
-# def countdown(t):
-#     while t:
-#         mins, secs = divmod(t, 60)
-#         timeformat = '{:02d}:{:02d}'.format(mins, secs)
-#         print(timeformat, end='\r')
-#         time.sleep(1)
-#         t -= 1
-    # print('Goodbye!\n\n\n\n\n')
-
-
-
 
 
 all_padav = 0
@@ -38,29 +21,265 @@ padav1=10000
 padav2=320000
 padav3=10000000
 for i in range(0,15):
+    
     print("\n\n\033[1;32;40m Aapka %d Question yeh hai :- \033[0m\n"%(i+1))
-    # print ("Question",questions[i])
     print("\033[1;37;45m Question  %s  \033[0m"% questions[i])
-
     print ("\033[1;33;40mA- %s \033[0m"%option1[i])
     print ("\033[1;33;40mB- %s \033[0m"%option2[i])
     print ("\033[1;33;40mC- %s \033[0m"%option3[i])
-    print ("\033[1;33;40mD- %s \033[0m"%option4[i])
-    # pyglet.app.run()
-    # countdown(5)
+    print ("\033[1;33;40mD- %s \033[0m"%option4[i]) 
 
+    if i==0:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key1.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==1:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key2.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==2:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key3.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()    
+
+    if i==3:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key4.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==4:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key5.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==5:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key6.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==6:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key7.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==7:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key8.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==8:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key9.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==9:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key10.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==10:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key11.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==11:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key12.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==12:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key13.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==13:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key14.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
+
+    if i==14:
+        que_1 = pyglet.resource.media('Answers/KbcQuestion/Ans_key15.mp3')
+        que_1.play()
+        def exit_callback(dt):
+            pyglet.app.exit()
+        pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        pyglet.app.run()
 
     var1 =input("\n\n\033[1;37;45mEnter your answer:-             \033[0m")
     if var1 == answer_list[i]:
         print("\033[1;36;40mcongrats, sahi jawaab           \033[0m")
+        if i==0:
+            que_1 = pyglet.resource.media('Answers/write-Ans/Question-1.mp3')
+            que_1.play()
+            def exit_callback(dt):
+            	pyglet.app.exit()
+            pyglet.clock.schedule_once(exit_callback , que_1.duration)
+            pyglet.app.run()
+
+        if i==1:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-2.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==2:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-3.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==3:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-4.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==4:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-5.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==5:
+            que_1 = pyglet.resource.media('Answers/write-Ans/Question-6.mp3')
+            que_1.play()
+            def exit_callback(dt):
+            	pyglet.app.exit()
+            pyglet.clock.schedule_once(exit_callback , que_1.duration)
+            pyglet.app.run()
+
+        if i==6:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-7.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==7:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-8.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==8:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-9.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==9:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-10.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==10:
+            que_1 = pyglet.resource.media('Answers/write-Ans/Question-11.mp3')
+            que_1.play()
+            def exit_callback(dt):
+            	pyglet.app.exit()
+            pyglet.clock.schedule_once(exit_callback , que_1.duration)
+            pyglet.app.run()
+
+        if i==11:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-12.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==12:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-13.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==13:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-14.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
+
+        if i==14:
+        	que_1 = pyglet.resource.media('Answers/write-Ans/Question-15.mp3')
+        	que_1.play()
+        	def exit_callback(dt):
+        		pyglet.app.exit()
+        	pyglet.clock.schedule_once(exit_callback , que_1.duration)
+        	pyglet.app.run()
         print("\033[1;36;40maap %d jeet chuke hai     \033[0m"%prize[i])
+
         if prize[i]==10000:
             print ("\033[1;32;40mAapka pehla padav pura huaa \033[0m")
             all_padav = padav1
-        elif prize[i]==320000:
+        if prize[i]==320000:
             print ("\033[1;32;40maapka dusra padav pura huaa \033[0m")
             all_padav = padav2
-        elif prize[i]==10000000:
+        if prize[i]==10000000:
             print ("\033[1;37;45mCongrats aap 1 crore jeet chuke \033[0m")        
     else:
         print("\033[1;31;40maapne galat chuna hai aur aap ye game haar gye hai \033[0m")

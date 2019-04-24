@@ -10,13 +10,13 @@ To make some of your text more readable, you can use **ANSI escape codes to chan
 
 PYGLET is a library for the Python programming language that provides an object-oriented application programming interface for the creation of games and other multimedia applications. PYGLET runs on Microsoft Windows, Mac OS X, and Linux; it is released under BSD Licence.
 
-Firstly you need to install pyglet lib
-#for python2.7 install pyglet 
+Firstly you need to install pyglet library
+# python2.7  
 ```
 pip install pyglet==1.2.4
 ```
 
-## for python 3
+# python 3
 
 ```
 pip3 install pyglet==1.2.4

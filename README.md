@@ -1,7 +1,7 @@
 ## KBC-Game
 This game is a command line Interface game which as different questions and at each question it provides you for options for every correct answer you win cash price and go for the next question but if user select a wrong option he looses the game.
-I used some library in this game such as **"Pyglet"** for Audio playing and 
-**"gTTS"** Modules which is used for text speeching.
+I used some library in this game such as **Pyglet** for Audio playing and 
+**gTTS** Modules which is used for text speeching.
 
 ## Add Colour to Text in Python
 To make some of your text more readable, you can use **ANSI escape codes to change the colour of the text** output in your python program. A good use case for this is to to highlight errors.
@@ -23,7 +23,6 @@ pip3 install pyglet==1.2.4
 ```
 
 ## AVbin
-======
 AVbin is a C library that provides a thin, cross-platform wrapper around Libav’s video- and audio-decoding functionality, providing long-term binary compatibility for applications and languages that need it.
 See also: Pyglet, a python media framework that makes extensive use of AVbin.
 

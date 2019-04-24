@@ -33,14 +33,14 @@ for i in range(0,15):
 
     question_voice(i)
 
-    var1 =input("\n\n\033[1;37;45mEnter your answer:-             \033[0m").upper()
-    if var1 == answer_list[i]:
+    user_input =input("\n\n\033[1;37;45mEnter your answer:-             \033[0m").upper()
+    if user_input == answer_list[i]:
         print("\033[1;36;40mcongrats, sahi jawaab           \033[0m")
         
         vocie_of_solution(i)
 
         print("\033[1;36;40maap %d jeet chuke hai     \033[0m"%prize[i])
-
+        
         if prize[i]==10000:
             print ("\033[1;32;40mAapka pehla padav pura huaa \033[0m")
             all_padav = padav1

@@ -47,5 +47,4 @@ If you want to read more about in this Module so visit on this link :- https://p
 
 
 ## Text Colour
-============
 I have shared a one file which name is **"Text Color"** from where you can learn how to colored your text
